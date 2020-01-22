@@ -29,11 +29,11 @@ body.fade-out {
 .Navbar a {
     float: left;
     display: block;
-    color: #b5cfff;
+    color: #7ea7f3;
     padding: 14px 16px;
     /*padding: .75vw 1vw;*/
     text-decoration: none;
-    font-family: fantasy, Avante Garde, Helvetica, 'Courier New', Courier, monospace;
+    font-family: fantasy, Helvetica, 'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: center;
     letter-spacing: .2vw;
@@ -58,8 +58,8 @@ body.fade-out {
 
 
 .Navbar a:hover {
-    background-color: aquamarine;
-    color: darkslategrey;
+    background-color: rgb(126, 185, 212);
+    color: rgb(78, 124, 150);
     font-weight: bolder;
     cursor: pointer;
     -webkit-transition-duration: 1s;
@@ -161,7 +161,7 @@ body.fade-out {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-family: fantasy, Avante Garde, Arial, Helvetica, sans-serif;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
     letter-spacing: .1vw;
     font-size: 1.5vw;
     background-color: rgba(0,0,0,0.75);
@@ -173,7 +173,7 @@ body.fade-out {
     color: white;
     position: absolute;
     top: 0;
-    font-family: fantasy, Avante Garde, Arial, Helvetica, sans-serif;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
     font-weight: bolder;
     letter-spacing: .1vw;
@@ -187,6 +187,7 @@ body.fade-out {
     margin: .25vw;
     background-color: white;
     border: 50%;
+    border-radius: 50%;
     display: inline-block;
     transition: background-color .6s ease;
     position: relative;
@@ -377,7 +378,7 @@ button:hover, .form-container .btn:hover {
 
 .form-container .cancel:hover {
     color: white;
-    background-color: darkred;
+    background-color: rgb(184, 0, 0);
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
     border-style: solid;
