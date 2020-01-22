@@ -33,7 +33,7 @@ body.fade-out {
     padding: 14px 16px;
     /*padding: .75vw 1vw;*/
     text-decoration: none;
-    font-family: fantasy, Helvetica, 'Courier New', Courier, monospace;
+    font-family: fantasy, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, 'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: center;
     letter-spacing: .2vw;
@@ -161,11 +161,11 @@ body.fade-out {
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-family: fantasy, Arial, Helvetica, sans-serif;
+    font-family: fantasy, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
     letter-spacing: .1vw;
     font-size: 1.5vw;
     background-color: rgba(0,0,0,0.75);
-    font-weight: bold;
+    font-weight: normal;
     border-radius: 7px 7px 7px 7px;
 }
 
@@ -173,7 +173,7 @@ body.fade-out {
     color: white;
     position: absolute;
     top: 0;
-    font-family: fantasy, Arial, Helvetica, sans-serif;
+    font-family: fantasy, Helvetica, sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
     font-size: 1.5vw;
     font-weight: bolder;
     letter-spacing: .1vw;
@@ -186,7 +186,6 @@ body.fade-out {
     width: 1vw;
     margin: .25vw;
     background-color: white;
-    border: 50%;
     border-radius: 50%;
     display: inline-block;
     transition: background-color .6s ease;
