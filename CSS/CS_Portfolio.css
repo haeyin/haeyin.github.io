@@ -29,7 +29,7 @@ body.fade-out {
 .Navbar a {
     float: left;
     display: block;
-    color: #7ea7f3;
+    color: white/*#7ea7f3*/;
     padding: 14px 16px;
     /*padding: .75vw 1vw;*/
     text-decoration: none;
@@ -59,7 +59,7 @@ body.fade-out {
 
 .Navbar a:hover {
     background-color: rgb(126, 185, 212);
-    color: rgb(78, 124, 150);
+    color: white/*rgb(78, 124, 150)*/;
     font-weight: bolder;
     cursor: pointer;
     -webkit-transition-duration: 1s;
@@ -90,10 +90,25 @@ body.fade-out {
     width: 100%;
     padding: 20px;
     margin-top: 25%;
+    text-align: center;
     position: relative;
+    font-family: fantasy, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, 'Courier New', Courier, monospace;
+    font-size: 20px;
+    letter-spacing: .2vw;
     -webkit-animation: moveNav 4s;
     animation: movevideoText 4s;
     /*animation: zoominout*/
+}
+
+.Icons {
+    height: auto;
+    width: auto;
+    display: inline;
+}
+
+#Resume {
+    display:inline;
+    color: white;
 }
 
 #Slideshow_Background {
@@ -249,13 +264,13 @@ p {
     padding-right: 20px;
 }
 
-/*.*/center {
+#center {
     font-family: Optima, Perpetua;
-    text-align: center;
-    letter-spacing: .1vw;
+    display: inline-block;
+    /*letter-spacing: .1vw;*/
     font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 35%;
+    padding-right: 35%;
 }
 
 a {
@@ -431,3 +446,4 @@ footer {
     padding: 2%;
     background-color: rgb(209, 209, 255);
 }
+

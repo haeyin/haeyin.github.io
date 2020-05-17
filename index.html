@@ -25,6 +25,7 @@
         <a href="#Slideshow">Slideshow</a>
         <a href="#About">About</a>
         <a href="#GitHub">GitHub</a>
+        <a href="Media/pdf/Clare_Shin_Resume_SoftwareDeveloper.pdf">Resume</a>
         <a onclick="openForm()">Contact</a>
     </div>
 
@@ -37,8 +38,8 @@
 
 <!--VIDEO-->    
         <video autoplay muted loop id="bg_video">
-            <source src="./Media/Video/background_video7.mp4" type="video/mp4">
-            <source src="./Media/Video/background_video7.ogg" type="video/ogg">
+            <source src="./Media/Video/background_video7_Trim7.mp4" type="video/mp4">
+            <source src="./Media/Video/background_video7_Trim7.ogg" type="video/ogg">
             Your browser does not support HTML5 video.
         </video>
     </div>
@@ -46,9 +47,10 @@
 <!--VIDEO TEXT-->
     <div class="Video_Text">
         <h1 class="Main">Clare's Portfolio</h1>
-            <p class="center">
-                My name is Clare Shin, welcome to my portfolio site! 
-            </p>
+        <p>
+            <a href="https://www.linkedin.com/in/clareshin/" target="_blank"><img class="Icons" src="Media/Images/LinkedIn.png" alt="LinkedIn_img"></a>
+            <span id="center">My name is Clare Shin, welcome to my portfolio site!</span>
+        </p>
     </div>
 
 <!--SLIDESHOW-->
@@ -57,37 +59,37 @@
             <div id="Slideshow_Container">
 
                 <div class="Slides fade">
-                    <div class="Slide_Number">1 / 6</div>
+                    <div class="Slide_Number">1 / 5</div>
                     <img class="SlideshowImages" src="./Media/Images/profile2squared.jpg">
                     <div class="text"></div>
                 </div>
 
                 <div class="Slides fade">
-                    <div class="Slide_Number">2 / 6</div>
-                    <img class="SlideshowImages" src="./Media/Images/HTML_CSS_and_JavaScript.jpeg">
-                    <div class="text">I am trained in HTML, CSS, JavaScript</div>
-                </div>
-
-                <div class="Slides fade">
-                    <div class="Slide_Number">3 / 6</div>
+                    <div class="Slide_Number">2 / 5</div>
                     <img class="SlideshowImages" src="./Media/Images/C_Sharp_and_Dot_NET.png">
-                    <div class="text">C#, .NET Framework, ASP.NET and MVC.</div>
+                    <div class="text">I am trained in C#, .NET Framework, ASP.NET, MVC</div>
                 </div>
 
                 <div class="Slides fade">
-                    <div class="Slide_Number">4 / 6</div>
+                    <div class="Slide_Number">3 / 5</div>
+                    <img class="SlideshowImages" src="./Media/Images/HTML_CSS_and_JavaScript.jpeg">
+                    <div class="text">as well as HTML, CSS, and JavaScript.</div>
+                </div>
+
+                <div class="Slides fade">
+                    <div class="Slide_Number">4 / 5</div>
                     <img class="SlideshowImages" src="./Media/Images/SQL_and_Database.jpg">
                     <div class="text">I also know <!--back-end development,--> databases and SQL.</div>
                 </div>
 
-                <div class="Slides fade">
+                <!--<div class="Slides fade">
                     <div class="Slide_Number">5 / 6</div>
                     <img class="SlideshowImages" src="./Media/Images/Python.png">
                     <div class="text">But I have yet to train in Python.</div>
-                </div>
+                </div>-->
 
                 <div class="Slides fade">
-                    <div class="Slide_Number">6 / 6</div>
+                    <div class="Slide_Number">5 / 5</div>
                     <img class="SlideshowImages" src="./Media/Images/Development.jpg">
                     <div class="text">
                         <a onclick="openForm()" href="#Contact" style="color: white;">Contact me!</a>
@@ -108,7 +110,7 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
                 <span class="dot" onclick="currentSlide(4)"></span>
                 <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
+                <!--<span class="dot" onclick="currentSlide(6)"></span>-->
 
             </div>
         </div>
@@ -147,7 +149,12 @@
         </div>
         <div class="Column_2">
             <h1>About</h1>
-                <p>I moved over to software developing from the film industry. With this experience under my belt, I am capable of seeing thing through both an artist's and developer's point of view. I also like to problem solve.</p>
+            <p>
+                I moved over to tech industry from the film industry in 2018, when I first professionally worked with Extended Reality via Microsoft's HoloLens.
+                Afterwards, I officially trained in software development at <a href="https://learncodinganywhere.com/" target="_blank">The Tech Academy</a>. 
+                With this experience under my belt, I have the unique perspective of both an artist and developer.
+                I also like to problem solve. 
+            </p>
         </div>
     </div>
 
@@ -164,32 +171,36 @@
     </div>
 
 <!--CONTACT-->
-    <div id="Contact">
-        <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
-        <div class="form-popup" id="myForm">
-            <form action="https://formspree.io/xgeadenn" method="POST" class="form-container">
-                <h1>Contact</h1>
+    <div>
+        <div id="Contact">
+            <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+            <div class="form-popup" id="myForm">
+                <form action="https://formspree.io/xgeadenn" method="POST" class="form-container">
+                    <h1>Contact</h1>
                     <label for="name"><strong>Name</strong></label>
-                        <input type="text" placeholder="Your Name Here" name="name" required>
+                    <input type="text" placeholder="Your Name Here" name="name" required>
                     <label for="phone"><strong>Phone</strong></label>
-                        <input type="text" placeholder="Your Phone Number Here" name="phone" required>
+                    <input type="text" placeholder="Your Phone Number Here" name="phone" required>
                     <label for="email"><strong>Email</strong></label>
-                        <input type="text" placeholder="Your Email Here" name="email" required>
+                    <input type="text" placeholder="Your Email Here" name="email" required>
                     <label for="message"><strong>Message</strong></label>
-                        <input type="text" placeholder="Type your Message" name="message">
-                    
-        <button type="submit" class="btn">SUBMIT</button>
-        <button type="button" class="cancel" onclick="closeForm()">CLOSE</button>
-            </form>
+                    <input type="text" placeholder="Type your Message" name="message">
+
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="cancel" onclick="closeForm()">CLOSE</button>
+                </form>
+            </div>
         </div>
     </div>
-    
+
     <script src="./JS/CS_Portfolio.js"></script>
 
 <!--FOOTER-->
     <footer>
         <p>
-            <a href="https://www.linkedin.com/in/clareshin/" target="_blank">LinkedIn</a>
+            <div>
+                &copy; 2020 - Clare Shin
+            </div>
         </p>
     </footer>
 </body>
