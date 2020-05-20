@@ -3,8 +3,9 @@
     "",
     "\\CSS",
     "\\JS",
-    "\\Media"
+    "\\Media",
+    "\\Media\\Video"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
